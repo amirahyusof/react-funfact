@@ -3,7 +3,8 @@ import React from "react";
 function Navbar(props){
   return(
     <nav className={props.darkMode? "dark": ""}>
-        <img src="./images/react-logo-nav.png" alt="react-logo" className="nav--logo" />
+        <img src={process.env.PUBLIC_URL + "/images/react-logo-nav.png"} 
+        alt="react-logo" className="nav--logo" />
         <h2 className="nav--logo_text">ReactFacts</h2>
         <div className="toggler">
           <p className="toggler--light">Light</p>
