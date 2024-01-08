@@ -1,8 +1,8 @@
 import React from "react";
 
-function Footer(){
+function Footer(props){
     return(
-        <footer className="footer">
+        <footer className={props.darkMode? "dark": ""}>
             <p>Code with love by Amirah</p>
         </footer>
     )

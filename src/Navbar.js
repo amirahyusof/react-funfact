@@ -1,14 +1,23 @@
 import React from "react";
 
-function Navbar(){
+function Navbar(props){
   return(
-    <div className="header">
-      <nav className="nav-bar">
-        <img src="react-logo.png" alt="react-logo" className="nav--logo" />
+    <nav className={props.darkMode? "dark": ""}>
+      <div className="header">
+      <div className="nav-bar">
+        <img src="../public/react_logo.jpg" alt="react-logo" className="nav--logo" />
         <h2 className="nav--logo_text">ReactFacts</h2>
-        <h3 className="nav--title">React Course - Project 1</h3>
-      </nav>
+        <div className="toggler">
+          <p className="toggler--light">Light</p>
+          <div className="toggler--slider" onClick={props.toggleMode}>
+            <div className="toggler--slider--circle"></div>
+          </div>
+          <p className="toggler--dark">Dark</p>
+        </div>
+      </div>
     </div>
+    </nav>
+    
   )
 }
 
