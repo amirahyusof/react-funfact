@@ -5,4 +5,4 @@ import App from './App';
 
 const display = document.getElementById('root');
 
-ReactDOM.render(<App />, display)
+ReactDOM.render(< App />, display)
