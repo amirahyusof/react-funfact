@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-funfact/static/css/main.80d23360.css",
-    "main.js": "/react-funfact/static/js/main.2d494762.js",
-    "static/media/grey-react-logo.png": "/react-funfact/static/media/grey-react-logo.c99c28deab443daafb49.png",
+    "main.css": "/react-funfact/static/css/main.1f30a50d.css",
+    "main.js": "/react-funfact/static/js/main.b83518bc.js",
+    "static/media/react-logo.png": "/react-funfact/static/media/react-logo.83bf9144d24bb9ba2e66.png",
     "index.html": "/react-funfact/index.html",
-    "main.80d23360.css.map": "/react-funfact/static/css/main.80d23360.css.map",
-    "main.2d494762.js.map": "/react-funfact/static/js/main.2d494762.js.map"
+    "main.1f30a50d.css.map": "/react-funfact/static/css/main.1f30a50d.css.map",
+    "main.b83518bc.js.map": "/react-funfact/static/js/main.b83518bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.80d23360.css",
-    "static/js/main.2d494762.js"
+    "static/css/main.1f30a50d.css",
+    "static/js/main.b83518bc.js"
   ]
 }
